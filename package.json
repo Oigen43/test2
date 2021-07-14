@@ -2,7 +2,8 @@
   "scripts": {
     "start": "./bin/start.sh",
     "test": "./bin/run-tests.sh",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "husky": "7.0.1",

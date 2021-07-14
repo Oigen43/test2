@@ -10,7 +10,7 @@ const schema = Joi.object({
     .email()
     .trim()
     .lowercase()
-    .required()
+    .required() asd sd asd as d
     .messages({
       'any.required': 'Email is required',
       'string.empty': 'Email is required',
