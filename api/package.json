@@ -24,12 +24,8 @@
     "generate-contributors": "all-contributors generate",
     "migrate": "node ./src/migrator.js",
     "schedule-dev": "nodemon --watch ./src ./src/scheduler ./src/scheduler.js",
-    "schedule": "node ./src/scheduler.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "schedule": "node ./src/scheduler.js",
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
@@ -71,7 +67,6 @@
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
     "faker": "5.5.3",
-    "husky": "6.0.0",
     "lint-staged": "10.5.4",
     "mjml": "4.9.3",
     "mocha": "8.3.2",
