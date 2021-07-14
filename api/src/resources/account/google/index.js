@@ -5,7 +5,7 @@ const authService = require('services/auth.service');
 
 const createUserAccount = async (userData) => {
   const user = await userService.create({
-    firstName: userData.given_name,
+    firstName: userData,
     lastName: userData.family_name,
     email: userData.email,
     isEmailVerified: true,
