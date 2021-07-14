@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "next"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "no-restricted-imports": ["error", {
+      "name": "lodash",
+      "message": "Import individual methods from the Lodash module"
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"],
+        "moduleDirectory": [
+          "src",
+          "node_modules"
+        ]
+      }
+    }
+  }
+}

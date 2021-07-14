@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "./bin/start.sh",
+    "test": "./bin/run-tests.sh",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "husky": "7.0.1",
+    "lerna": "4.0.0"
+  }
+}
