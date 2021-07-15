@@ -13,7 +13,7 @@ Run application
 
 Install node_modules in root folder of the repository, it will install **husky**.
 
-This package will run ESLint and Stylelint before each commit and can show you some errors that you need to fix. 
+This package will run ESLint and Stylelint before each commit and can show you some errors that you need to fix.
 
 ### Branching and pushing
 Create a separate branch for each feature or fix, when the feature will be completed open PR to **main** branch and assign **Evgenii Cherkes** as a reviewer.
@@ -83,4 +83,3 @@ import PageConfig from './PageConfig';
 
 import 'styles/globals.scss';
 ```
-# test2
