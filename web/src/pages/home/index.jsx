@@ -5,10 +5,10 @@ import { useSelector } from 'react-redux';
 
 export default function Home() {
   const user = useSelector(userSelectors.selectUser);
-
   return (
     <>
       <h2>Home</h2>
+      <img alt="1" />
       <Link href="/sign-in">
         <a>Sign In</a>
       </Link>
