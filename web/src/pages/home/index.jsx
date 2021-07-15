@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <h2>Home</h2>
-      <img alt="1" />
       <Link href="/sign-in">
         <a>Sign In</a>
       </Link>
