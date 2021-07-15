@@ -26,9 +26,9 @@ Continue working in this branch and when comments will be fixed add label **to r
 
 Example: ```Oigen43/user-page```
 
-## [Codestyle](https://learn.javascript.ru/coding-style)
+## [Code Style](https://learn.javascript.ru/coding-style)
 
-## Case Styles
+## Case Style
 Use camelCaseFor inside your code (.js, .jsx, .scss, ...)
 
 Use kebab-case for directories and files names. React Components it's exception, their name must start with a capital letter
